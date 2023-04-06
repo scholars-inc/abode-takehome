@@ -1,0 +1,11 @@
+{
+  "name": "abode-takehome",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "firebase": "^9.19.1"
+  },
+  "scripts": {},
+  "eslintConfig": {},
+  "browserslist": {}
+}
