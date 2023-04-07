@@ -83,3 +83,8 @@ Please submit only your own work. You are more than welcome to take inspiration 
 ## Example UI
 
 We’ve included an example below of what your UI might look like; please note that this is just an example! It’s here to spark your own creativity and show you what a complete submission might look like. Please don’t recreate this example exactly, as we really want to see what sorts of design decisions you make with the assignment :)
+![example-ui](https://user-images.githubusercontent.com/16907570/230651777-d8a3c3f5-be4b-4c4d-8b70-0c941a9e00a7.png)
+
+## Submitting the assignment!
+
+Once you’ve finished, please send us a link to your fork via email.
