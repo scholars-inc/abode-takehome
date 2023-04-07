@@ -2,13 +2,7 @@ import { initializeApp } from "firebase/app";
 import { connectDatabaseEmulator, getDatabase } from "firebase/database";
 function defaultInitOptions() {
   const firebaseConfig = {
-    apiKey: "AIzaSyARvUaVnimhmvQZx14owRCpYTXXhfBWFTk",
-    authDomain: "abode-takehome.firebaseapp.com",
-    databaseURL: "https://abode-takehome-default-rtdb.firebaseio.com",
-    projectId: "abode-takehome",
-    storageBucket: "abode-takehome.appspot.com",
-    messagingSenderId: "234075775261",
-    appId: "1:234075775261:web:a7eb1cc238d8f4e80101f4",
+    // paste your config here!
   };
 
   const defaultProject = initializeApp(firebaseConfig);
@@ -16,7 +10,8 @@ function defaultInitOptions() {
   console.log(defaultProject.name);
 
   const db = getDatabase();
-  connectDatabaseEmulator(db, "localhost", 9000);
+  // If you want to use the local emulators, uncomment the line below (don't forget to comment it back out/remove when not using anymore!)
+  // connectDatabaseEmulator(db, "localhost", 9000);
   return db;
 }
 
