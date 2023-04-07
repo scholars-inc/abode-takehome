@@ -18,10 +18,13 @@ You'll be using a platform called Firebase to create your Travel app. [Firebase]
 
 You'll need to create your own Firebase project to complete this assignment. The assignment shouldn't come close to going over Firebase's free tier of service, so there should be no charge to you for setting up the project. To get started:
 
-1. Go to [https://console.firebase.google.com/](https://console.firebase.google.com/) and click "Add project". This requires you to have a Google account (aka a Gmail address) and to be logged in with that account.
-2. Once you've created your project, you can follow the instructions here: [https://firebase.google.com/docs/cli](https://firebase.google.com/docs/cli) to set up the Firebase CLI and connect this directory to the project you created in Step 1
+1. Github Configuration
+    - Clone this Repository
+    - Create a new private Github Repository for the cloned project
+2. Go to [https://console.firebase.google.com/](https://console.firebase.google.com/) and click "Add project". This requires you to have a Google account (aka a Gmail address) and to be logged in with that account.
+3. Once you've created your project, you can follow the instructions here: [https://firebase.google.com/docs/cli](https://firebase.google.com/docs/cli) to set up the Firebase CLI and connect this directory to the project you created in Step 1
     - Note: make sure you select "realtime database" and "functions" when prompted after running `firebase init`. This will make sure your project has the correct configurations for this assignment.
-3. Once you've initialized and set up the project, you can paste your app configuration from your Firebase project into the indicated spot in `src/index.js`. Instructions on how to get that config are here: [https://firebase.google.com/docs/web/learn-more#config-object](https://firebase.google.com/docs/web/learn-more#config-object)
+4. Once you've initialized and set up the project, you can paste your app configuration from your Firebase project into the indicated spot in `src/index.js`. Instructions on how to get that config are here: [https://firebase.google.com/docs/web/learn-more#config-object](https://firebase.google.com/docs/web/learn-more#config-object)
 
 ### Part 1: Server
 
@@ -87,4 +90,8 @@ We’ve included an example below of what your UI might look like; please note t
 
 ## Submitting the assignment!
 
-Once you’ve finished, please send us a link to your fork via email.
+Once you’ve finished, please add the following emails as Collaborators on your project:
+
+- evan@abodehr.com
+- jahziel@abodehr.com
+- steven@abodehr.com
